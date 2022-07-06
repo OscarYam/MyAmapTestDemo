@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="修改地址"
+            android:textColor="@color/route_info"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText_dialog_addr01_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="地址一"
+            android:imeOptions="actionDone"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/editText_dialog_addr02_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="地址二"
+            android:imeOptions="actionDone"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/editText_dialog_addr03_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="地址三"
+            android:imeOptions="actionDone"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/editText_dialog_addr04_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="地址四"
+            android:imeOptions="actionDone"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/editText_dialog_addr05_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="地址五"
+            android:imeOptions="actionDone"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/editText_dialog_addr06_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="地址六"
+            android:imeOptions="actionDone"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_dialog_address_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_custom"
+            android:text="取消"
+            android:textColor="@color/datepicker_selectedTextColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</LinearLayout>

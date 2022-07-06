@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="300"
+    android:fromXDelta="-100%p"
+    android:toXDelta="0" >
+</translate>
+
+<!--    相对于对象左边缘的像素数（例如 "5"）-->
+<!--    相对于对象左边缘的百分比（例如 "5%"）-->
+<!--    或相对于父级容器左边缘的百分比（例如 "5%p"）-->

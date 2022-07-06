@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:alpha="0.9"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="修改性别"
+            android:textColor="@color/route_info"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/switchMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:switchMinWidth="20dp"
+            android:text="男(♂)"
+            android:textOff=""
+            android:textOn=""
+            android:thumb="@drawable/switch_thumb_01"
+            android:track="@drawable/switch_track_01" />
+
+        <Switch
+            android:id="@+id/switchFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:switchMinWidth="20dp"
+            android:text="女(♀)"
+            android:textOff=""
+            android:textOn=""
+            android:thumb="@drawable/switch_thumb_01"
+            android:track="@drawable/switch_track_01" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_dialog_sex_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_custom"
+            android:text="取消"
+            android:textColor="@color/datepicker_selectedTextColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
