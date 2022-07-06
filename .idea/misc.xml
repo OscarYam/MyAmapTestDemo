@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.248" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/drawable/button_custom.xml" value="0.2535" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/drawable/gray_thumb.xml" value="0.242" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/drawable/gray_track.xml" value="0.242" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/drawable/green_thumb.xml" value="0.242" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/drawable/green_track.xml" value="0.242" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.264" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/drawable/side_nav_bar.xml" value="0.2295" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/drawable/switch_thumb_01.xml" value="0.242" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/drawable/switch_track_01.xml" value="0.242" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout-v21/my_simple_list_item_2.xml" value="0.24791666666666667" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/activity_route_detail.xml" value="0.24791666666666667" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/dialog_change_address.xml" value="0.2" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/dialog_change_birthday.xml" value="0.24791666666666667" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/dialog_change_nickname.xml" value="0.24791666666666667" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/dialog_change_sex.xml" value="0.24791666666666667" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/dialog_change_userimg.xml" value="0.24791666666666667" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/fragment_login.xml" value="0.24791666666666667" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/item_bus_result.xml" value="0.17119565217391305" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/item_bus_segment.xml" value="0.12760416666666666" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/item_bus_segment_ex.xml" value="0.17119565217391305" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/layout.xml" value="0.11347517730496454" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/layout_date.xml" value="0.24583333333333332" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/layout_twomap.xml" value="0.17119565217391305" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/my_simple_list_item_1.xml" value="0.16485507246376813" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/my_simple_list_item_2.xml" value="0.1" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/settings_fragment.xml" value="0.24375" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/settings_fragment_ex_fragment.xml" value="0.25" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/user_info_fragment.xml" value="0.25" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.248" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.248" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/xml/root_preferences.xml" value="0.24791666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
