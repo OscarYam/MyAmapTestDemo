@@ -12,8 +12,11 @@ import android.view.WindowManager;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
+import androidx.lifecycle.Observer;
 
 import com.example.myamaptestdemo.R;
+import com.example.myamaptestdemo.data.AppDatabase;
+import com.example.myamaptestdemo.data.User;
 import com.example.myamaptestdemo.databinding.DialogChangeAddressBinding;
 
 public class ChangeAddressDialogFragment extends DialogFragment {
@@ -55,7 +58,34 @@ public class ChangeAddressDialogFragment extends DialogFragment {
             }
         });
 
+
+        //监视本地数据库登录用户数据变动
+        AppDatabase.getInstance(requireActivity()).myDao().getLoggedUser().observe(getViewLifecycleOwner(), new Observer<User>() {
+            @Override
+            public void onChanged(User user) {
+                // 获取数据库中的用户地址并显示
+                //......
+
+                if ( user!= null) {
+//                    if (user.address.)
+//                    if (user.userSex != null) {
+//                        if (user.userSex.matches("男")) {
+//                            dialogChangeSexBinding.switchMale.setChecked(true);
+//                            dialogChangeSexBinding.switchFemale.setChecked(false);
+//                        } else if (user.userSex.matches("女")) {
+//                            dialogChangeSexBinding.switchFemale.setChecked(true);
+//                            dialogChangeSexBinding.switchMale.setChecked(false);
+//                        } else {
+//                            dialogChangeSexBinding.switchMale.setChecked(false);
+//                            dialogChangeSexBinding.switchFemale.setChecked(false);
+//                        }
+//                    }
+                }
+            }
+        });
+
     }
+
 
     @NonNull
     @Override
