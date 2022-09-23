@@ -1,2 +1,1 @@
-# MyAmapTestDemo
-# Add dialog for changing user address.
+# 初始化项目版本
