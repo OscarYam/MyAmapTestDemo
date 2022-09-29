@@ -4,11 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/dialog_change_address.xml" value="0.2" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/dialog_change_address.xml" value="0.264" />
         <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/dialog_change_birthday.xml" value="0.13134057971014493" />
         <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/dialog_change_nickname.xml" value="0.24791666666666667" />
         <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/dialog_change_sex.xml" value="0.264" />
         <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/dialog_change_userimg.xml" value="0.24791666666666667" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/fragment_login.xml" value="0.24791666666666667" />
+        <entry key="..\:/My_android_apk_test/MyAmapTestDemo/app/src/main/res/layout/layout_date.xml" value="0.24791666666666667" />
       </map>
     </option>
   </component>
